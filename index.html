@@ -1,0 +1,93 @@
+<html>
+<head>
+<title> KAMU </title>
+<style>
+    .parent {
+        display: flex;
+        place-items: center;
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 5%;
+        right: 60%;
+    }
+
+    body {
+        background-image: url("maaf banget.jpg");
+        background-repeat: no-repeat;
+        background-size:cover
+    }
+
+    .font-big {
+        font-size: x-large;
+        font-weight: bold;
+        color: rgb(0, 255, 38);
+        font-style: italic;
+    }
+
+    h1 {
+        color: aqua;
+        font-style: inherit;
+    }
+</style>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("TERIMAH KASIH SUDAH MAAFINN AKU :) AND JANGAN LUPA TEKAN KIRIM PESAN CANTIK")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+            
+}
+</script>
+
+</head>
+<body>
+    <center><h1>HAI KAMU CANTIKNYA AKU<h1></h1></center>
+    
+    <center>
+    <img alt="EvilicaCell" src="maaf.jpg" height="500">
+    </center>
+
+    <center>
+    <P class="font-big">MAAFIN AKU YAH PLEASE T_T :(</P>
+    </center>
+
+    <div style="position: relative; top: 50%;">
+        <center><a href="https://wa.me/6281346590294?text=Awwww. Iyaa aku maafin ko :)">KIRIM PESAN</a></center>
+    </div>
+
+<div class="center">
+    <div class="parent" id="By" style="position:absolute; left:0px; top:430px; width:410px; height:410px;">
+        <input type="button" value=" DIMAAFIN " onClick="f1()" />
+    </div>
+    <div class="parent" ID="Bn" style="position:absolute; left:150px; top:430px; width:410px; height:410px;">
+        <input type="button" value=" TIDAK DIMAAFIN " onMouseOver="f()" />
+    </div>
+    
+</div>
+
+</body>
+</html>
